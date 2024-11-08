@@ -1,0 +1,21 @@
+.hidden::-webkit-scrollbar{
+    display: none;
+}
+
+.borderBottom{
+    border-bottom: 2px solid black;
+}
+
+.borderAll{
+    border: 2px solid black;
+}
+
+.preventCursor{
+    cursor: no-drop;
+    pointer-events: none;
+}
+
+.allowCursor{
+    cursor:initial;
+    pointer-events: initial;
+}
